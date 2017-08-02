@@ -1,0 +1,85 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	img{
+		width: 100%;
+    	position: absolute;
+    	top: 0;
+    	z-index: -3;
+    	opacity: 0.5;
+	}
+}
+.datos-temperatura{
+    margin-top: 7%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+.icon{
+	margin-top: 9%;
+	margin-bottom: 358px;
+	img.img-responsive{
+		width: 27%;
+		margin-left: 36%;
+		z-index: 1;
+	}
+}
+
+.temperature{
+	font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.text-datos{
+	color:white;
+	font-size: 25px;
+    font-weight: 200;
+	margin-right: 15%;
+}
+
+.text-datos-temperatura{
+	color:white;
+	font-size: 42px;
+    font-weight: 500;
+}
+
+.text-semana{
+	color: black;
+	font-size: 23px;
+    position: relative;
+    top: 13px;
+}
+footer{
+	background-color: rgba(255, 255, 255, 0.81);
+    width: 90%;
+	height: 66px;
+    margin-left: 5%;
+}
+
+/* SEGUNDA VISTA */ 
+.dias-week{
+	padding: 40px;
+}
+.iconos-semana{
+	width:15%;
+	float: left;
+	z-index: 1;
+}
+
+.text-datos-dias{
+	color:white;
+	font-size: 25px;
+    font-weight: 200;
+	margin-top: 31px;
+    margin-left: 19%;
+}
+.temperatura{
+	color:white;
+	font-size: 25px;
+    font-weight: 200;
+    position: relative;
+	margin-right: 7%;
+}
