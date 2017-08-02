@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dark Sky Weather</title>
+	<!-- Roboto y Lato -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/sass/_style.scss">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+</head>
+<body>
+	<section>
+		<img src="dist/img/fondo.jpg" class="fondo">
+		<div class="container-fluid fondoTranslucido">
+			<div class="row">
+				<div class="col-ms-6 col-xs-6 hidden-md hidden-lg">
+					<div class="iconos-all text-left" id="iconos-all"></div><h5 class="dias2" id="diasSemana"></h5>
+				</div>
+				<div class="col-ms-6 col-xs-6 hidden-md hidden-lg">
+					<h6 class="iconos-all text-right" id="temperatura2"></h6>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-ms-12 col-xs-12 hidden-md hidden-lg">
+					<a class="btn" href="index.html" id="button">REGRESAR</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="dist/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="dist/js/script.js"></script>
+</body>
+</html>
