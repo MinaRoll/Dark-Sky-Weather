@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dark Sky Weather</title>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg320mUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/sass/_style.scss">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+</head>
+<body>
+	<section id="demo" class="datos-tiempo center-block">
+		<img src="dist/img/fondo.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 center-block">
+					<div class="icon"></div>
+				</div>
+			</div>
+			<!-- Temperatura-->
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<p class="temperature text-datos-grados"></p>
+				</div>
+			</div>
+			
+			<!-- Wind -->
+			<div class="row linea-dias">
+				<div class="col-md-6 col-xs-12 text-left">
+					<p class="text-datos">Wind</p>
+				</div>
+				<div class="col-md-6 col-xs-12 text-right">
+					<p class="wind text-datos"></p>
+				</div>
+			</div>
+			<!-- Humidity -->
+			<div class="row linea-dias">
+				<div class="col-md-6 col-xs-12 text-left">
+					<p class="text-datos">Humidity</p>
+				</div>
+				<div class="col-md-6 col-xs-12 text-right">
+					<p class="humidity text-datos"></p>
+				</div>
+			</div>
+		
+			<!-- UV Index -->
+			<div class="row linea-dias">
+				<div class="col-md-6 col-xs-12 text-left">
+					<p class="text-datos">UV Index</p>
+				</div>
+				<div class="col-md-6 col-xs-12 text-right">
+					<p class="uv text-datos"></p>
+				</div>
+			</div>
+		
+			<!-- Pressure -->
+			<div class="row linea-dias">
+				<div class="col-md-6 col-xs-12 text-left">
+					<p class="text-datos">Pressure</p>
+				</div>
+				<div class="col-md-6 col-xs-12 text-right">
+					<p class="pressure text-datos"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center center-block">
+					<div class="boton">
+						<a type="button" href="index2.html" class="text-semana">PREDICCION DE LA SEMANA</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBheXBpzcGUWs2snS33NskqmuZO4IJ8Y5Q&libraries=places,geometry"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/js/script.js"></script>
+</body>
+</html>
